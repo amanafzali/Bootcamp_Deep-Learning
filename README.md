@@ -5,7 +5,7 @@
 
 In this assignment, I used deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price.
 
-The following stepts were perfomed:
+The following steps were performed:
 
 1. Prepare the data for training and testing
 2. Build and train custom LSTM RNNs
@@ -29,5 +29,8 @@ Used the same parameters and training steps for each model. This is necessary to
 Finally, used the testing data to evaluate each model and compare the performance.
 
     Which model has a lower loss?
+    A: LSTM RNN Closing price has lower Loss.
     Which model tracks the actual values better over time?
+    A: Both models tracks almost the same but RNN Closing price does slightly better.
     Which window size works best for the model?
+    A: Window size 10 works better.
